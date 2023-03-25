@@ -1,0 +1,21 @@
+#hero {
+    background-position: center top;
+    min-height: 500px;
+    display: flex !important;
+    align-items: center;
+    text-align: center;
+}
+
+#hero .page-title-content {
+    max-width: 1000px;
+}
+
+#hero p {
+    color: white;
+    font-size: 1.4rem;
+}
+
+#hero h3 {
+    color: white;
+    font-size: 1.6rem;
+}
