@@ -19,3 +19,58 @@
     color: white;
     font-size: 1.6rem;
 }
+
+#info .single-simple-steps {
+    background-color: var(--optional-color);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+
+#info .single-simple-steps:hover {
+    background-color: var(--main-color);
+}
+
+#info .single-simple-steps *:not(i) {
+    color: white;
+}
+
+#info .single-simple-steps i {
+    min-width: 75px;
+    min-height: 75px;
+    max-width: 75px;
+    max-height: 75px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+#info .single-simple-steps i::after {
+    box-shadow: none !important;
+}
+
+#info .single-simple-steps .head {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#info .single-simple-steps .text h3 {
+    font-size: 1.1rem;
+}
+
+#info .single-simple-steps .text * {
+    line-height: 20px;
+}
+
+#info .what-learn ul {
+    padding: 0;
+    padding-left: 1rem;
+}
+
+#info .what-learn li {
+    margin-bottom: 1rem;
+}
