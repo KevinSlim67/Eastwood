@@ -356,7 +356,15 @@ html {
 .footerLogo {
   width: 9rem;
   height: 9rem;
-  background: url(./../img/icon.png) center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.footerLogo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 
 @media only screen and (min-width: 460px) and (max-width: 768px) {
