@@ -1,207 +1,218 @@
 #hero {
-    background-position: center top;
-    min-height: 500px;
-    display: flex !important;
-    align-items: center;
-    text-align: center;
+  background-position: center top;
+  min-height: 500px;
+  display: flex !important;
+  align-items: center;
+  text-align: center;
 }
 
 #hero::before {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 #hero .page-title-content {
-    max-width: 1000px;
+  max-width: 1000px;
 }
 
 #hero p {
-    color: white;
-    font-size: 1.4rem;
+  color: white;
+  font-size: 1.4rem;
 }
 
 #hero h3 {
-    color: white;
-    font-size: 1.6rem;
+  color: white;
+  font-size: 1.6rem;
 }
 
 #about h2 {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 #about .admission-img::before {
-    display: none;
+  display: none;
 }
 
 #about .img-container {
-    position: relative;
-    z-index: 5;
+  position: relative;
+  z-index: 5;
 }
 
 #about .img-container *:not(.circle) {
-    position: relative;
-    z-index: 5;
+  position: relative;
+  z-index: 5;
 }
 
 #about .img-container::before {
-    content: '';
-    width: 100%;
-    height: 900px;
-    max-width: 100%;
-    max-height: calc(100% + 6rem);
-    position: absolute;
-    top: -3rem;
-    left: -3rem;
-    border: solid 15px var(--main-color);
-    transition: var(--transition);
-    z-index: 3;
+  content: "";
+  width: 100%;
+  height: 900px;
+  max-width: 100%;
+  max-height: calc(100% + 6rem);
+  position: absolute;
+  top: -3rem;
+  left: -3rem;
+  border: solid 15px var(--optional-color);
+  transition: var(--transition);
+  z-index: 3;
 }
 
 #about .img-container .circle {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 150px;
-    height: 150px;
-    background-color: var(--main-color);
-    border-radius: 50%;
-    border: solid 10px white;
-    transform: translateX(25%) translateY(-40%);
-    transition: var(--transition);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 1rem;
-    z-index: 7;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  background-color: var(--optional-color);
+  border-radius: 50%;
+  border: solid 10px white;
+  transform: translateX(25%) translateY(-40%);
+  transition: var(--transition);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1rem;
+  z-index: 7;
 }
 
 @media (max-width: 994px) {
-    #about .img-container::before {
-        display: none;
-    }
+  #about .img-container::before {
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {
-    #about .img-container .circle { 
-        left: 50%;
-        right: 0;
-        top: 0;
-        transform: translateX(-50%) translateY(-50%);
-        font-size: clamp(0.8rem, 3.4vw, 1rem);
-        width: max(120px, 30vw);
-        height:  max(120px, 30vw);
-    }
+  #about .img-container .circle {
+    left: 50%;
+    right: 0;
+    top: 0;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: clamp(0.8rem, 3.4vw, 1rem);
+    width: max(120px, 30vw);
+    height: max(120px, 30vw);
+  }
 }
 
 #about .img-container .circle * {
-    color: white;
+  color: white;
 }
 
 #about .img-container .circle strong {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 #about .img-container .circle span {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 #about .admission-img:hover .circle {
-    background-color: var(--optional-color);
+  background-color: var(--main-color);
 }
 
 #about .admission-img:hover .img-container::before {
-    border-color: var(--optional-color);
-    top: -2rem;
-    left: -2rem;
-    max-height: 100%;
+  border-color: var(--main-color);
+  top: -2rem;
+  left: -2rem;
+  max-height: 100%;
 }
 
 #about .accordion-button:not(.collapsed) {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 #about .accordion-button {
-    border: solid 1px rgb(230, 230, 230);
-    background-color: rgb(245, 245, 245);
-    margin-bottom: 1rem;
-    font-weight: 500;
-    box-shadow: none !important;
-    border-radius: 0;
+  border: solid 1px rgb(230, 230, 230);
+  background-color: rgb(245, 245, 245);
+  margin-bottom: 1rem;
+  font-weight: 500;
+  box-shadow: none !important;
+  border-radius: 0;
 }
 
 #about .accordion-button:not(.collapsed) {
-    color: var(--optional-color);
-    font-weight: 600;
-    border-bottom: none;
-    border-radius: 0;
+  color: var(--optional-color);
+  font-weight: 600;
+  border-bottom: none;
+  border-radius: 0;
 }
 
 #about .accordion-button::after {
-    transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 #about .accordion-button:focus {
-    outline: none !important;
+  outline: none !important;
 }
 
 #about .accordion-header {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 #about .accordion-collapse {
-    margin-bottom: 1rem;
-    background-color: rgb(245, 245, 245);
-    border: solid 1px rgb(230, 230, 230);
-    border-top: none;
-    border-radius: 0;
-    transition: all 0.3s ease;
+  margin-bottom: 1rem;
+  background-color: rgb(245, 245, 245);
+  border: solid 1px rgb(230, 230, 230);
+  border-top: none;
+  border-radius: 0;
+  transition: all 0.3s ease;
 }
 
 #courses {
-    background-color: var(--light-bg)
+  background-color: var(--light-bg);
 }
 
 #courses .course {
-    padding: 0;
-    background-color: white;
+  padding: 0;
+  background-color: white;
 }
 
 #courses .course:hover {
-    background-color: var(--optional-color);
+  background-color: var(--optional-color);
 }
 
 #courses .course .img-container {
-    width: 100%;
-    height: 150px;
+  width: 100%;
+  height: 150px;
 }
 
 #courses .course .img-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 #courses .course .content {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
 #courses .course h3 {
-    margin-bottom: 0.3rem;
+  margin-bottom: 0.3rem;
 }
 
 #courses .course .time {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: var(--optional-color);
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
-    transition: all 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--optional-color);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
 }
 
-
 #courses .course:hover .time {
-    color: white;
+  color: white;
+}
+
+#enroll .form-group label {
+  color: black !important;
+}
+
+#enroll form h3 {
+  margin-bottom: 2.5rem !important;
+}
+
+#enroll form .form-control {
+  color: var(--heading-color);
 }
