@@ -48,6 +48,11 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+.pg-footer * {
+  font-family: var(--heading-font-family) !important;
+  letter-spacing: 0 !important;
+}
+
 .pg-footer a {
   color: #fff;
   text-decoration: none;
@@ -62,6 +67,7 @@ html {
   background-color: #004658;
   color: #fff;
 }
+
 .footer .footer-wave-svg {
   background-color: transparent;
   display: block;
