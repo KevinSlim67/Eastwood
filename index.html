@@ -55,16 +55,48 @@
     <header class="header-area">
       <!-- Start Top Header -->
       <div class="top-header">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6 col-sm-6">
-              <ul class="header-left-content">
-                <li>
-                  <a href="tel:04409307">
-                    <i class="ri-phone-fill"></i>
-                    04 409 307
-                  </a>
-                </li>
+        <div class="container w-100">
+          <div class="row align-items-center w-100 m-0">
+            <div class=" w-100 p-0">
+              <ul class="header-left-content w-100 d-flex justify-content-between align-items-center">
+                <div class="d-flex w-100 w-md-auto justify-content-between justify-content-md-start" style="gap: 0.5rem;">
+                  <li>
+                    <a href="tel:04409307">
+                      <i class="ri-phone-fill"></i>
+                      04 409 307
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:eastwood@info.com">
+                      <i class="ri-mail-fill"></i>
+                      eastwood@info.com
+                    </a>
+                  </li>
+                </div>
+
+                <div class="d-none d-md-flex">
+                  <li>
+                    <a href="https://www.facebook.com/">
+                      <i class="ri-facebook-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/">
+                      <i class="ri-twitter-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/">
+                      <i class="ri-linkedin-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/">
+                      <i class="ri-instagram-fill"></i>
+                    </a>
+                  </li>
+                </div>
+
               </ul>
             </div>
           </div>
@@ -100,7 +132,9 @@
               <div
                 class="collapse navbar-collapse mean-menu"
                 id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto">
+                <ul
+                  class="navbar-nav m-auto"
+                  style="margin-right: 2rem !important">
                   <li class="nav-item">
                     <a href="./" class="nav-link active"> Home </a>
                   </li>
@@ -169,14 +203,16 @@
           <div class="col-lg-8 d-flex align-items-center">
             <div class="banner-content">
               <span>Welcome to Eastwood</span>
-              <h1>Achieve your academic goals on your own terms</h1>
+              <h1 class="capHeadings">
+                Achieve your academic goals on your own terms
+              </h1>
 
               <div class="courses-link">
-                <a href="course.html">
+                <a href="course.html" class="default-btn capHeadings mb-2">
                   Explore our courses
                   <i class="ri-arrow-right-line"></i>
                 </a>
-                <a href="#programs" class="study-online">
+                <a href="#programs" class="study-online capHeadings">
                   Study online
                   <i class="ri-arrow-right-line"></i>
                 </a>
@@ -194,8 +230,8 @@
         <div class="row align-items-center">
           <div class="col-xl-6">
             <div class="about-content ml-15">
-              <span>About our school</span>
-              <h2>Empowering your education</h2>
+              <span class="capHeadings">About our school</span>
+              <h2 class="capHeadings">Empowering your education</h2>
 
               <p>
                 At Eastwood University, our online program offers accessible,
@@ -212,7 +248,7 @@
                 convenient and affordable.
               </p>
 
-              <a href="#" class="default-btn mb-4">
+              <a href="#" class="default-btn mb-4 capHeadings">
                 Find out more
                 <i class="ri-arrow-right-line"></i>
               </a>
@@ -236,7 +272,6 @@
     <!-- Start of the course area -->
     <section id="programs" class="programs section-margin">
       <div class="container">
-
         <div class="section-title">
           <h2>Programs</h2>
           <p>
@@ -244,7 +279,7 @@
             eiusmod tempor incididunt ut labore et dolore magna
           </p>
         </div>
-        
+
         <div class="row">
           <div class="col-lg-6 px-lg-4">
             <div class="program">
@@ -259,7 +294,8 @@
                 <h3 class="programHeader">IB-MYP Program Online (English)</h3>
                 <p class="programInfo">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Aspernatur, commodi.
+                  Aspernatur, commodi. Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit.
                 </p>
                 <a class="button" href="programs.html">Learn More</a>
               </div>
@@ -270,7 +306,7 @@
             <div class="program">
               <div class="img-container">
                 <img
-                  src="assets/img/home-page/prog1.jpg"
+                  src="assets/img/home-page/prog2.jpg"
                   alt="IB-DP Program
                   Online (English)"
                   />
@@ -279,7 +315,8 @@
                 <h3 class="programHeader">IB-DP Program Online (English)</h3>
                 <p class="programInfo">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Veritatis, adipisci!
+                  Veritatis, adipisci! Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit
                 </p>
                 <a class="button" href="programs.html">Learn More</a>
               </div>
@@ -292,17 +329,6 @@
     <!-- End of the course area -->
     <div class="pg-footer" style="background-color: var(--light-bg) !important">
       <footer class="footer">
-        <svg
-          class="footer-wave-svg"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 100"
-          preserveAspectRatio="none">
-          <path
-            class="footer-wave-path"
-            style="fill: var(--light-bg) !important"
-            d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8
-            c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path>
-        </svg>
         <div class="footer-content">
           <div class="footer-content-column">
             <div class="footer-logo">
@@ -543,13 +569,6 @@
         </div>
       </footer>
     </div>
-
-    <!-- Start Go Top Area -->
-    <div class="go-top">
-      <i class="ri-arrow-up-s-fill"></i>
-      <i class="ri-arrow-up-s-fill"></i>
-    </div>
-    <!-- End Go Top Area -->
 
     <!-- Jquery Min JS -->
     <script

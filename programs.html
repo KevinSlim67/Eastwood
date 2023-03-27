@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1,
       shrink-to-fit=no"
-      />
+    />
 
     <!-- Bootstrap Min CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -51,20 +51,53 @@
     </div>
     <!-- End Preloader Area -->
 
+
     <!-- Start Header Area -->
     <header class="header-area">
       <!-- Start Top Header -->
       <div class="top-header">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6 col-sm-6">
-              <ul class="header-left-content">
-                <li>
-                  <a href="tel:04409307">
-                    <i class="ri-phone-fill"></i>
-                    04 409 307
-                  </a>
-                </li>
+        <div class="container w-100">
+          <div class="row align-items-center w-100 m-0">
+            <div class=" w-100 p-0">
+              <ul class="header-left-content w-100 d-flex justify-content-between align-items-center">
+                <div class="d-flex w-100 w-md-auto justify-content-between justify-content-md-start" style="gap: 0.5rem;">
+                  <li>
+                    <a href="tel:04409307">
+                      <i class="ri-phone-fill"></i>
+                      04 409 307
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:eastwood@info.com">
+                      <i class="ri-mail-fill"></i>
+                      eastwood@info.com
+                    </a>
+                  </li>
+                </div>
+
+                <div class="d-none d-md-flex">
+                  <li>
+                    <a href="https://www.facebook.com/">
+                      <i class="ri-facebook-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/">
+                      <i class="ri-twitter-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/">
+                      <i class="ri-linkedin-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/">
+                      <i class="ri-instagram-fill"></i>
+                    </a>
+                  </li>
+                </div>
+
               </ul>
             </div>
           </div>
@@ -100,13 +133,15 @@
               <div
                 class="collapse navbar-collapse mean-menu"
                 id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto">
+                <ul
+                  class="navbar-nav m-auto"
+                  style="margin-right: 2rem !important">
                   <li class="nav-item">
-                    <a href="./" class="nav-link"> Home </a>
+                    <a href="./" class="nav-link active"> Home </a>
                   </li>
 
                   <li class="nav-item">
-                    <a href="./programs.html" class="nav-link active">
+                    <a href="./programs.html" class="nav-link">
                       Programs
                       <i class="ri-arrow-down-s-line"></i>
                     </a>
@@ -129,12 +164,12 @@
 
                     <ul class="dropdown-menu">
                       <li class="nav-item">
-                        <a href="./programs.html#courses" class="nav-link">IB-MYP Courses</a>
+                        <a href="./programs.html#courses" class="nav-link">IB-MYP
+                          Courses</a>
                       </li>
                       <li class="nav-item">
-                        <a href="./programs.html#courses" class="nav-link"
-                          >IB-DB Courses</a
-                        >
+                        <a href="./programs.html#courses" class="nav-link">IB-DB
+                          Courses</a>
                       </li>
                     </ul>
                   </li>
@@ -158,6 +193,7 @@
     </header>
     <!-- End Header Area -->
 
+
     <!-- Search Modal -->
     <div class="modal fade search-modal-area" id="exampleModalsrc">
       <div class="modal-dialog modal-dialog-centered">
@@ -174,7 +210,7 @@
                   name="Search"
                   placeholder="Search for..."
                   class="form-control"
-                  />
+                />
 
                 <button type="submit" class="search-btn">
                   <i class="ri-search-line"></i>
@@ -191,11 +227,14 @@
     <div
       id="hero"
       class="page-title-area bg-2"
-      style="background-image: url(assets/img/ib-myp-header.png)">
+      style="background-image: url(assets/img/ib-myp-header.png)"
+    >
       <div class="container d-flex justify-content-center">
         <div class="page-title-content">
           <h2>IB-MYP Program</h2>
-          <p>The IB Middle Years Programme (MYP) is for students aged 11-16</p>
+          <p>
+            The IB Middle Years Programme (MYP) is for students aged 11-16
+          </p>
           <div class="banner-btn pt-3">
             <a href="#about" class="default-btn">
               Learn More
@@ -231,12 +270,13 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                     <button
-                      class="accordion-button collapsed"
+                      class="accordion-button collapsed capHeadings"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseOne"
                       aria-expanded="false"
-                      aria-controls="collapseOne">
+                      aria-controls="collapseOne"
+                    >
                       What is the middle year program (MYP)?
                     </button>
                   </h2>
@@ -245,7 +285,8 @@
                     class="accordion-collapse collapse"
                     aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample"
-                    style="">
+                    style=""
+                  >
                     <div class="accordion-body">
                       <p>
                         The Middle Years Program (MYP) is a framework designed
@@ -273,12 +314,13 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
                     <button
-                      class="accordion-button collapsed"
+                      class="accordion-button collapsed capHeadings"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseTwo"
                       aria-expanded="false"
-                      aria-controls="collapseTwo">
+                      aria-controls="collapseTwo"
+                    >
                       Grade 6-10
                     </button>
                   </h2>
@@ -287,7 +329,8 @@
                     class="accordion-collapse collapse"
                     aria-labelledby="headingTwo"
                     data-bs-parent="#accordionExample"
-                    style="">
+                    style=""
+                  >
                     <div class="accordion-body">
                       <p>
                         The IB Middle Years Program (MYP) curriculum in details
@@ -302,12 +345,13 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingThree">
                     <button
-                      class="accordion-button collapsed"
+                      class="accordion-button collapsed capHeadings"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseThree"
                       aria-expanded="false"
-                      aria-controls="collapseThree">
+                      aria-controls="collapseThree"
+                    >
                       Learning Methodologies
                     </button>
                   </h2>
@@ -315,7 +359,8 @@
                     id="collapseThree"
                     class="accordion-collapse collapse"
                     aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample">
+                    data-bs-parent="#accordionExample"
+                  >
                     <div class="accordion-body">
                       <p>
                         At EIS, we pride ourselves in our moving towards a
@@ -384,7 +429,7 @@
                   design, including graphic design, web design, and user
                   experience design.
                 </p>
-                <a href="course.html" class="read-more">
+                <a href="course.html" class="read-more capHeadings">
                   Find out more
                   <span class="ri-arrow-right-line"></span>
                 </a>
@@ -412,7 +457,7 @@
                   design, including graphic design, web design, and user
                   experience design.
                 </p>
-                <a href="course.html" class="read-more">
+                <a href="course.html" class="read-more capHeadings">
                   Find out more
                   <span class="ri-arrow-right-line"></span>
                 </a>
@@ -440,7 +485,7 @@
                   design, including graphic design, web design, and user
                   experience design.
                 </p>
-                <a href="course.html" class="read-more">
+                <a href="course.html" class="read-more capHeadings">
                   Find out more
                   <span class="ri-arrow-right-line"></span>
                 </a>
@@ -468,7 +513,7 @@
                   design, including graphic design, web design, and user
                   experience design.
                 </p>
-                <a href="course.html" class="read-more">
+                <a href="course.html" class="read-more capHeadings">
                   Find out more
                   <span class="ri-arrow-right-line"></span>
                 </a>
@@ -496,7 +541,7 @@
                   design, including graphic design, web design, and user
                   experience design.
                 </p>
-                <a href="course.html" class="read-more">
+                <a href="course.html" class="read-more capHeadings">
                   Find out more
                   <span class="ri-arrow-right-line"></span>
                 </a>
@@ -524,7 +569,7 @@
                   design, including graphic design, web design, and user
                   experience design.
                 </p>
-                <a href="course.html" class="read-more">
+                <a href="course.html" class="read-more capHeadings">
                   Find out more
                   <span class="ri-arrow-right-line"></span>
                 </a>
@@ -540,18 +585,6 @@
 
     <div class="pg-footer" style="background-color: var(--light-bg) !important">
       <footer class="footer">
-        <svg
-          class="footer-wave-svg"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0
-          1200 100"
-          preserveAspectRatio="none">
-          <path
-            class="footer-wave-path"
-            style="fill: var(--light-bg) !important"
-            d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8
-            c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path>
-        </svg>
         <div class="footer-content">
           <div class="footer-content-column">
             <div class="footer-logo">
@@ -567,18 +600,18 @@
               <h2 class="footer-menu-name">Get Started</h2>
               <ul id="menu-get-started" class="footer-menu-list">
                 <li
-                  class="menu-item menu-item-type-post_type
-                  menu-item-object-product">
+                  class="menu-item menu-item-type-post_type menu-item-object-product"
+                >
                   <a href="#">Start</a>
                 </li>
                 <li
-                  class="menu-item menu-item-type-post_type
-                  menu-item-object-product">
+                  class="menu-item menu-item-type-post_type menu-item-object-product"
+                >
                   <a href="#">Documentation</a>
                 </li>
                 <li
-                  class="menu-item menu-item-type-post_type
-                  menu-item-object-product">
+                  class="menu-item menu-item-type-post_type menu-item-object-product"
+                >
                   <a href="#">Installation</a>
                 </li>
               </ul>
@@ -589,18 +622,18 @@
               <h2 class="footer-menu-name">Company</h2>
               <ul id="menu-company" class="footer-menu-list">
                 <li
-                  class="menu-item menu-item-type-post_type
-                  menu-item-object-page">
+                  class="menu-item menu-item-type-post_type menu-item-object-page"
+                >
                   <a href="#">Contact</a>
                 </li>
                 <li
-                  class="menu-item menu-item-type-taxonomy
-                  menu-item-object-category">
+                  class="menu-item menu-item-type-taxonomy menu-item-object-category"
+                >
                   <a href="#">News</a>
                 </li>
                 <li
-                  class="menu-item menu-item-type-post_type
-                  menu-item-object-page">
+                  class="menu-item menu-item-type-post_type menu-item-object-page"
+                >
                   <a href="#">Careers</a>
                 </li>
               </ul>
@@ -609,14 +642,13 @@
               <h2 class="footer-menu-name">Legal</h2>
               <ul id="menu-legal" class="footer-menu-list">
                 <li
-                  class="menu-item menu-item-type-post_type
-                  menu-item-object-page menu-item-privacy-policy
-                  menu-item-170434">
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434"
+                >
                   <a href="#">Privacy Notice</a>
                 </li>
                 <li
-                  class="menu-item menu-item-type-post_type
-                  menu-item-object-page">
+                  class="menu-item menu-item-type-post_type menu-item-object-page"
+                >
                   <a href="#">Terms of Use</a>
                 </li>
               </ul>
@@ -627,35 +659,37 @@
               <h2 class="footer-menu-name">Quick Links</h2>
               <ul id="menu-quick-links" class="footer-menu-list">
                 <li
-                  class="menu-item menu-item-type-custom
-                  menu-item-object-custom">
-                  <a target="_blank" rel="noopener noreferrer" href="#">Support
-                    Center</a>
+                  class="menu-item menu-item-type-custom menu-item-object-custom"
+                >
+                  <a target="_blank" rel="noopener noreferrer" href="#"
+                    >Support Center</a
+                  >
                 </li>
                 <li
-                  class="menu-item menu-item-type-custom
-                  menu-item-object-custom">
-                  <a target="_blank" rel="noopener noreferrer" href="#">Service
-                    Status</a>
+                  class="menu-item menu-item-type-custom menu-item-object-custom"
+                >
+                  <a target="_blank" rel="noopener noreferrer" href="#"
+                    >Service Status</a
+                  >
                 </li>
                 <li
-                  class="menu-item menu-item-type-post_type
-                  menu-item-object-page">
+                  class="menu-item menu-item-type-post_type menu-item-object-page"
+                >
                   <a href="#">Security</a>
                 </li>
                 <li
-                  class="menu-item menu-item-type-post_type
-                  menu-item-object-page">
+                  class="menu-item menu-item-type-post_type menu-item-object-page"
+                >
                   <a href="#">Blog</a>
                 </li>
                 <li
-                  class="menu-item menu-item-type-post_type_archive
-                  menu-item-object-customer">
+                  class="menu-item menu-item-type-post_type_archive menu-item-object-customer"
+                >
                   <a href="#">Customers</a>
                 </li>
                 <li
-                  class="menu-item menu-item-type-post_type
-                  menu-item-object-page">
+                  class="menu-item menu-item-type-post_type menu-item-object-page"
+                >
                   <a href="#">Reviews</a>
                 </li>
               </ul>
@@ -670,7 +704,8 @@
               <a
                 class="footer-call-to-action-button button"
                 href="#"
-                target="_self">
+                target="_self"
+              >
                 Get in Touch
               </a>
             </div>
@@ -680,7 +715,8 @@
                 <a
                   class="footer-call-to-action-link"
                   href="tel:04409307"
-                  target="_self">
+                  target="_self"
+                >
                   04 409 307
                 </a>
               </p>
@@ -691,23 +727,27 @@
             <svg
               class="footer-social-amoeba-svg"
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 236 54">
+              viewBox="0 0 236 54"
+            >
               <path
                 class="footer-social-amoeba-path"
-                d="M223.06,43.32c-.77-7.2,1.87-28.47-20-32.53C187.78,8,180.41,18,178.32,20.7s-5.63,10.1-4.07,16.7-.13,15.23-4.06,15.91-8.75-2.9-6.89-7S167.41,36,167.15,33a18.93,18.93,0,0,0-2.64-8.53c-3.44-5.5-8-11.19-19.12-11.19a21.64,21.64,0,0,0-18.31,9.18c-2.08,2.7-5.66,9.6-4.07,16.69s.64,14.32-6.11,13.9S108.35,46.5,112,36.54s-1.89-21.24-4-23.94S96.34,0,85.23,0,57.46,8.84,56.49,24.56s6.92,20.79,7,24.59c.07,2.75-6.43,4.16-12.92,2.38s-4-10.75-3.46-12.38c1.85-6.6-2-14-4.08-16.69a21.62,21.62,0,0,0-18.3-9.18C13.62,13.28,9.06,19,5.62,24.47A18.81,18.81,0,0,0,3,33a21.85,21.85,0,0,0,1.58,9.08,16.58,16.58,0,0,1,1.06,5A6.75,6.75,0,0,1,0,54H236C235.47,54,223.83,50.52,223.06,43.32Z"></path>
+                d="M223.06,43.32c-.77-7.2,1.87-28.47-20-32.53C187.78,8,180.41,18,178.32,20.7s-5.63,10.1-4.07,16.7-.13,15.23-4.06,15.91-8.75-2.9-6.89-7S167.41,36,167.15,33a18.93,18.93,0,0,0-2.64-8.53c-3.44-5.5-8-11.19-19.12-11.19a21.64,21.64,0,0,0-18.31,9.18c-2.08,2.7-5.66,9.6-4.07,16.69s.64,14.32-6.11,13.9S108.35,46.5,112,36.54s-1.89-21.24-4-23.94S96.34,0,85.23,0,57.46,8.84,56.49,24.56s6.92,20.79,7,24.59c.07,2.75-6.43,4.16-12.92,2.38s-4-10.75-3.46-12.38c1.85-6.6-2-14-4.08-16.69a21.62,21.62,0,0,0-18.3-9.18C13.62,13.28,9.06,19,5.62,24.47A18.81,18.81,0,0,0,3,33a21.85,21.85,0,0,0,1.58,9.08,16.58,16.58,0,0,1,1.06,5A6.75,6.75,0,0,1,0,54H236C235.47,54,223.83,50.52,223.06,43.32Z"
+              ></path>
             </svg>
             <a class="footer-social-link linkedin" href="#" target="_blank">
               <span class="hidden-link-text">Linkedin</span>
               <svg
                 class="footer-social-icon-svg"
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 30 30">
+                viewBox="0 0 30 30"
+              >
                 <path
                   class="footer-social-icon-path"
                   d="M9,25H4V10h5V25z
                   M6.501,8C5.118,8,4,6.879,4,5.499S5.12,3,6.501,3C7.879,3,9,4.121,9,5.499C9,6.879,7.879,8,6.501,8z
                   M27,25h-4.807v-7.3c0-1.741-0.033-3.98-2.499-3.98c-2.503,0-2.888,1.896-2.888,3.854V25H12V9.989h4.614v2.051h0.065
-                  c0.642-1.18,2.211-2.424,4.551-2.424c4.87,0,5.77,3.109,5.77,7.151C27,16.767,27,25,27,25z"></path>
+                  c0.642-1.18,2.211-2.424,4.551-2.424c4.87,0,5.77,3.109,5.77,7.151C27,16.767,27,25,27,25z"
+                ></path>
               </svg>
             </a>
             <a class="footer-social-link twitter" href="#" target="_blank">
@@ -715,7 +755,8 @@
               <svg
                 class="footer-social-icon-svg"
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 26 26">
+                viewBox="0 0 26 26"
+              >
                 <path
                   class="footer-social-icon-path"
                   d="M 25.855469 5.574219 C
@@ -739,7 +780,8 @@
                   23.039063 5.347656 23.90625 8.3125 23.90625 C 17.96875
                   23.90625 23.25 15.90625 23.25 8.972656 C 23.25 8.742188
                   23.246094 8.515625 23.234375 8.289063 C 24.261719 7.554688
-                  25.152344 6.628906 25.855469 5.574219 "></path>
+                  25.152344 6.628906 25.855469 5.574219 "
+                ></path>
               </svg>
             </a>
             <a class="footer-social-link youtube" href="#" target="_blank">
@@ -747,7 +789,8 @@
               <svg
                 class="footer-social-icon-svg"
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 30 30">
+                viewBox="0 0 30 30"
+              >
                 <path
                   class="footer-social-icon-path"
                   d="M 15 4 C 10.814 4
@@ -760,7 +803,8 @@
                   21.001953 L 28 21 L 28 15.001953 L 28 15 L 28 9 A 4 4 0 0 0
                   24.623047 5.0546875 L 24.619141 5.0488281 C 24.619141
                   5.0488281 19.186 4 15 4 z M 12 10.398438 L 20 15 L 12
-                  19.601562 L 12 10.398438 z"></path>
+                  19.601562 L 12 10.398438 z"
+                ></path>
               </svg>
             </a>
             <a class="footer-social-link facebook" href="#" target="_blank">
@@ -768,14 +812,16 @@
               <svg
                 class="footer-social-icon-svg"
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24">
+                viewBox="0 0 24 24"
+              >
                 <path
                   class="footer-social-icon-path"
                   fill="white"
                   stroke="none"
                   d="M9.6 21.6v-9.6h-3.2v-3.2h3.2v-2.4c0-3.52 2.08-5.44
                   5.28-5.44 1.52 0 2.8.16 3.2.24v3.36l-2.16.001c-1.76
-                  0-2.08.8-2.08 2.08v2.72h4.16l-.54 3.2h-3.62v9.6h-4.16z"></path>
+                  0-2.08.8-2.08 2.08v2.72h4.16l-.54 3.2h-3.62v9.6h-4.16z"
+                ></path>
               </svg>
             </a>
           </div>
@@ -792,17 +838,11 @@
       </footer>
     </div>
 
-    <!-- Start Go Top Area -->
-    <div class="go-top">
-      <i class="ri-arrow-up-s-fill"></i>
-      <i class="ri-arrow-up-s-fill"></i>
-    </div>
-    <!-- End Go Top Area -->
-
     <!-- Jquery Min JS -->
     <script
       data-cfasync="false"
-      src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+      src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
     <script src="assets/js/jquery.min.js"></script>
     <!-- Bootstrap Bundle Min JS -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
